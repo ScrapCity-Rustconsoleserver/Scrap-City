@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Join Our Discord</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      background: black;
+    }
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* fills entire screen */
+      z-index: 1;
+    }
+    .discord-btn {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      background: #5865F2;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      z-index: 2;
+    }
+    .discord-btn:hover {
+      background: #4752C4;
+    }
+  </style>
+</head>
+<body>
+  <video autoplay loop muted>
+    <source src="2025-12-26-203806101.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <a class="discord-btn" href="https://discord.gg/PDfK7Rnz4" target="_blank">
+    Join Discord
+  </a>
+</body>
+</html>
